@@ -164,7 +164,7 @@ MIT License
 
 ## 作者
 
-[熊泓睿]
+[Xiong hr]
 
 ## 致谢
 
