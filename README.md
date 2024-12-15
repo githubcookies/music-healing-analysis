@@ -39,7 +39,7 @@ python music_analysis.py [--base_path 音频文件路径]
 
 音程亲和力分数于传统音乐理论中的协和度理论，采用以下权重系统：
 
-#### 完全协和音程（Perfect Consonances）
+#### 完全和谐音程（Perfect Consonances）
 | 音程 | 半音数 | 权重 |
 |------|--------|------|
 | 纯一度 | 0 | 1.0 |
@@ -47,7 +47,7 @@ python music_analysis.py [--base_path 音频文件路径]
 | 纯五度 | 7 | 0.9 |
 | 纯四度 | 5 | 0.8 |
 
-#### 不完全协和音程（Imperfect Consonances）
+#### 不完全和谐音程（Imperfect Consonances）
 | 音程 | 半音数 | 权重 |
 |------|--------|------|
 | 大三度 | 4 | 0.6 |
@@ -55,7 +55,7 @@ python music_analysis.py [--base_path 音频文件路径]
 | 大六度 | 9 | 0.4 |
 | 小六度 | 8 | 0.3 |
 
-#### 不协和音程（Dissonances）
+#### 不和谐音程（Dissonances）
 | 音程 | 半音数 | 权重 |
 |------|--------|------|
 | 大二度 | 2 | -0.2 |
